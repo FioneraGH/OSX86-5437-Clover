@@ -1,0 +1,105 @@
+3:913  3:046  Found UEFI Acpi 2.0 RSDP at CADCF000
+3:913  0:000  Saving ACPI tables from RSDP CADCF000 to EFI\CLOVER\ACPI\origin ...
+3:913  0:000   CADCF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:923  0:010    (Xsdt: CADCF098, Rsdt: CADCF028)
+3:923  0:000    CADCF098: 'XSDT', 'WN09', Rev: 1, Len: 180 -> XSDT.aml
+3:927  0:004    CADCF028: 'RSDT', 'WN09', Rev: 1, Len: 108 -> RSDT.aml
+3:931  0:004    Tables in Xsdt: 18
+3:931  0:000    0. CADDF300: 'FACP', 'WN09', Rev: 5, Len: 268 -> FACP.aml
+3:936  0:004        (Dsdt: CADCF1E0, Facs: CB6E9080, XDsdt: CADCF1E0, XFacs: 0)
+3:936  0:000        CADCF1E0: 'DSDT', 'WN09', Rev: 2, Len: 65823 -> DSDT.aml
+3:941  0:005        CB6E9080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+3:945  0:004    1. CADDF410: 'APIC', 'WN09', Rev: 3, Len: 114 -> APIC.aml
+3:949  0:004    2. CADDF488: 'FPDT', 'WN09', Rev: 1, Len: 68 -> FPDT.aml
+3:953  0:004    3. CADDF4D0: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+3:958  0:004    4. CADDF578: 'LPIT', 'WN09', Rev: 1, Len: 92 -> LPIT.aml
+3:962  0:004    5. CADDF5D8: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> SSDT-0-sensrhub.aml
+3:964  0:002    6. CADDF800: 'SLIC', 'WN09', Rev: 1, Len: 374 -> SLIC.aml
+3:969  0:004    7. CADDF978: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172 -> SSDT-1-Cpu0Ist.aml
+3:971  0:002    8. CADDFE10: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+3:974  0:002        * C90D6018: ' ', '', Rev: 55, Len: 16777216  01 20 00 00 00 00 00 01 37 37 00 00 05 64 00 00 
+3:974  0:000        * CADBC618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+3:977  0:002        * CADBCC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+3:979  0:002        * CADBBD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+3:982  0:002  
+3:982  0:000    9. CADE08E8: 'MCFG', 'WN09', Rev: 1, Len: 60 -> MCFG.aml
+3:986  0:004    10. CADE0928: 'HPET', 'WN09', Rev: 1, Len: 56 -> HPET.aml
+3:990  0:004    11. CADE0960: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-3-SataTabl.aml
+3:993  0:002    12. CADE0C78: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662 -> SSDT-4-SaSsdt.aml
+3:996  0:002    13. CADE41D8: 'SSDT', 'SgPch', Rev: 1, Len: 2110 -> SSDT-5-SgPch.aml
+3:999  0:002    14. CADE4A18: 'MSDM', 'WN09', Rev: 3, Len: 85 -> MSDM.aml
+4:003  0:004    15. CADE4A70: 'SSDT', 'OptTabl', Rev: 1, Len: 6578 -> SSDT-6-OptTabl.aml
+4:005  0:002    16. CADE6428: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196 -> CSRT.aml
+4:010  0:004    17. CADE64F0: 'BGRT', 'WN09', Rev: 0, Len: 56 -> BGRT.aml
+4:014  0:004    Tables in Rsdt: 18
+4:014  0:000    0. CADCF158: 'FACP', 'WN09', Rev: 2, Len: 132 -> RSDT-FACP.aml
+4:018  0:004        (Dsdt: CADCF1E0, Facs: CB6E9040)
+4:018  0:000        CADCF1E0: 'DSDT', 'WN09', Rev: 2, Len: 65823
+4:019  0:001        CB6E9040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+4:023  0:004    1. CADDF410: 'APIC', 'WN09', Rev: 3, Len: 114
+4:023  0:000    2. CADDF488: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:023  0:000    3. CADDF4D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:023  0:000    4. CADDF578: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:023  0:000    5. CADDF5D8: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:023  0:000    6. CADDF800: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:023  0:000    7. CADDF978: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:023  0:000    8. CADDFE10: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:023  0:000    9. CADE08E8: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:023  0:000    10. CADE0928: 'HPET', 'WN09', Rev: 1, Len: 56
+4:023  0:000    11. CADE0960: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:023  0:000    12. CADE0C78: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:023  0:000    13. CADE41D8: 'SSDT', 'SgPch', Rev: 1, Len: 2110
+4:023  0:000    14. CADE4A18: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:023  0:000    15. CADE4A70: 'SSDT', 'OptTabl', Rev: 1, Len: 6578
+4:023  0:000    16. CADE6428: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+4:023  0:000    17. CADE64F0: 'BGRT', 'WN09', Rev: 0, Len: 56
+4:023  0:000  Found UEFI Acpi 1.0 RSDP at CADCF000
+4:023  0:000  Printing ACPI tables from RSDP CADCF000 ...
+4:023  0:000   CADCF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:023  0:000    (Xsdt: CADCF098, Rsdt: CADCF028)
+4:023  0:000    CADCF098: 'XSDT', 'WN09', Rev: 1, Len: 180
+4:023  0:000    CADCF028: 'RSDT', 'WN09', Rev: 1, Len: 108
+4:023  0:000    Tables in Xsdt: 18
+4:023  0:000    0. CADDF300: 'FACP', 'WN09', Rev: 5, Len: 268
+4:023  0:000        (Dsdt: CADCF1E0, Facs: CB6E9080, XDsdt: CADCF1E0, XFacs: 0)
+4:023  0:000        CADCF1E0: 'DSDT', 'WN09', Rev: 2, Len: 65823
+4:025  0:001        CB6E9080: 'FACS', Ver: 2, Len: 64
+4:025  0:000    1. CADDF410: 'APIC', 'WN09', Rev: 3, Len: 114
+4:025  0:000    2. CADDF488: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:025  0:000    3. CADDF4D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:025  0:000    4. CADDF578: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:025  0:000    5. CADDF5D8: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:025  0:000    6. CADDF800: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:025  0:000    7. CADDF978: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:025  0:000    8. CADDFE10: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:025  0:000    9. CADE08E8: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:025  0:000    10. CADE0928: 'HPET', 'WN09', Rev: 1, Len: 56
+4:025  0:000    11. CADE0960: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:025  0:000    12. CADE0C78: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:025  0:000    13. CADE41D8: 'SSDT', 'SgPch', Rev: 1, Len: 2110
+4:025  0:000    14. CADE4A18: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:025  0:000    15. CADE4A70: 'SSDT', 'OptTabl', Rev: 1, Len: 6578
+4:025  0:000    16. CADE6428: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+4:025  0:000    17. CADE64F0: 'BGRT', 'WN09', Rev: 0, Len: 56
+4:025  0:000    Tables in Rsdt: 18
+4:025  0:000    0. CADCF158: 'FACP', 'WN09', Rev: 2, Len: 132
+4:025  0:000        (Dsdt: CADCF1E0, Facs: CB6E9040)
+4:025  0:000        CADCF1E0: 'DSDT', 'WN09', Rev: 2, Len: 65823
+4:026  0:001        CB6E9040: 'FACS', Ver: 0, Len: 64
+4:026  0:000    1. CADDF410: 'APIC', 'WN09', Rev: 3, Len: 114
+4:026  0:000    2. CADDF488: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:026  0:000    3. CADDF4D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:026  0:000    4. CADDF578: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:026  0:000    5. CADDF5D8: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:026  0:000    6. CADDF800: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:026  0:000    7. CADDF978: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:026  0:000    8. CADDFE10: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:026  0:000    9. CADE08E8: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:026  0:000    10. CADE0928: 'HPET', 'WN09', Rev: 1, Len: 56
+4:026  0:000    11. CADE0960: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:026  0:000    12. CADE0C78: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:026  0:000    13. CADE41D8: 'SSDT', 'SgPch', Rev: 1, Len: 2110
+4:026  0:000    14. CADE4A18: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:026  0:000    15. CADE4A70: 'SSDT', 'OptTabl', Rev: 1, Len: 6578
+4:026  0:000    16. CADE6428: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+4:026  0:000    17. CADE64F0: 'BGRT', 'WN09', Rev: 0, Len: 56
